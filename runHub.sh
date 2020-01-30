@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # this script is for Mac OSX. modify for your own use.
 FILE=selenium-server-standalone.jar
+PORT=9515
 if test -f "$FILE"; then
     echo "$FILE exist"
 else 
@@ -10,7 +11,7 @@ else
     mv selenium-server-standalone-3.13.0.jar $FILE
 fi
 
-java -jar selenium-server-standalone.jar -port 4444 -role hub
+java -jar selenium-server-standalone.jar -port $PORT -role hub
 
 
 

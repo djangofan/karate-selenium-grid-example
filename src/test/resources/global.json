@@ -1,8 +1,8 @@
 {
   "dev" : {
-    "gridUrl": "http://127.1:4444/wd/hub"
+    "gridUrl": "http://127.1:9515/wd/hub"
   },
   "e2e" : {
-    "gridUrl": "http://127.1:4444/wd/hub"
+    "gridUrl": "http://127.1:9515/wd/hub"
   }
 }
