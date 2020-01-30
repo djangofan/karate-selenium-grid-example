@@ -3,7 +3,7 @@
 Example of Karate tests running against a Selenium grid.
 
 
-Before you run the tests, start the selenium grid and hub by separately running the 2 included Bash scripts at
+Before you run the tests, make sure you have WGet installed, and start the selenium grid and hub by separately running the 2 included Bash scripts at
 the root of this project.
 
 ## Execution Of Tests
