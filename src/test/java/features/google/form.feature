@@ -1,5 +1,5 @@
 @er-statement
-Feature: Claims Intake Employer Statement - Full Form
+Feature: Google Search - Form
 
   Background:
     * configure driver = { type: 'chromedriver', showDriverLog: true, start: false, webDriverUrl: '#(global.gridUrl)' }
