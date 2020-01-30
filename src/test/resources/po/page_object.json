@@ -1,0 +1,5 @@
+{
+  "search_field": "//input[@name='q']",
+  "search_button": "//input[@name='btnK']",
+  "result_stats": "//div[@id='resultStats']"
+}

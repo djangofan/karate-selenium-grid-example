@@ -1,0 +1,8 @@
+{
+  "dev" : {
+    "gridUrl": "http://localhost:4444/wd/hub"
+  },
+  "e2e" : {
+    "gridUrl": "http://192.168.135.61:4444/wd/hub"
+  }
+}
