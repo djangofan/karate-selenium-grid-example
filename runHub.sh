@@ -15,4 +15,6 @@ fi
 
 java -jar selenium-server-standalone.jar -port $PORT -role hub
 
+#NEW 4.0 format
+#java -jar selenium-server-standalone.jar hub --port $PORT
 
