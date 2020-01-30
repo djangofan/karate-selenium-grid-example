@@ -3,13 +3,8 @@
 Example of Karate tests running against a Selenium grid.
 
 
-```diff
-- NOTE: Just a POC
-- NOTE: Karate tests do not currently work with Selenium Grid !! (December 2019) . There is 
--   no plan for Karate to support Selenium grid BUT Karate project is implementing
--    a Dockerized container testing solution that provides videos of browser tests.
-- NOTE: This project can be reused for Gatling performance tests of the UI
-```
+Before you run the tests, start the selenium grid and hub by separately running the 2 included Bash scripts at
+the root of this project.
 
 ## Execution Of Tests
 
