@@ -2,7 +2,8 @@
 Feature: Google Search - Form
 
   Background:
-    * configure driver = { type: 'chromedriver', showDriverLog: true, start: false, webDriverUrl: '#(global.gridUrl)' }
+    * configure driver = { type: 'chromedriver', showDriverLog: true, start: false, webDriverUrl: 'http://localhost:4444/wd/hub' }
+    #* configure driver = { type: 'chromedriver', showDriverLog: true, start: false, webDriverUrl: '#(global.gridUrl)' }
     #* configure driver = { type: 'chromedriver', headless: true, showDriverLog: true }
     #* configure driver = { type: 'chrome', showDriverLog: true, start: true }
     * configure report = { showRequest: false, showResponse: false, showLog: true, showAllSteps: true }

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # this script is for Mac OSX. modify for your own use.
 FILE=selenium-server-standalone.jar
-PORT=9515
+PORT=4444
 if test -f "$FILE"; then
     echo "$FILE exist"
 else 

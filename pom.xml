@@ -15,7 +15,7 @@
         <maven-surefire.version>3.0.0-M4</maven-surefire.version>
         <junit5.version>5.5.2</junit5.version>
         <skip.surefire.tests>false</skip.surefire.tests>
-        <karate.version>0.9.5.RC5</karate.version>
+        <karate.version>1.0.0</karate.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
 
