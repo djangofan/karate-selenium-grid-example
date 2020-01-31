@@ -2,8 +2,9 @@
 # this script is for Mac OSX. modify for your own use.
 FILE=selenium-server-standalone.jar
 PORT=4444
-SEL_VER=3.141.59
+
 SEL_VER_KEY=3.141
+SEL_VER=$SEL_VER.59
 
 if test -f "$FILE"; then
     echo "$FILE exist"
