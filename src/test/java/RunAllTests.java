@@ -16,11 +16,11 @@ public class RunAllTests {
 
     private static final String REPORT_TITLE = "example UI (karate)";
     private static final String GLOBAL_IGNORE_ALL = "~@ignore";
-    private static final String GLOBAL_INCLUDE_ALL = "@er-statement";
+    private static final String GLOBAL_INCLUDE_ALL = "@e2e";
 
     @Test()
     public void runAllSeleniumTests() {
-        Results results = Runner.parallel(1, "classpath:features", GLOBAL_IGNORE_ALL, GLOBAL_INCLUDE_ALL);
+        Results results = Runner.parallel(4, "classpath:features", GLOBAL_IGNORE_ALL, GLOBAL_INCLUDE_ALL);
         Assertions.assertTrue(results.getFeatureCount() > 0, "Did not find any cucumber tests to execute.");
         generateReport(results.getReportDir());
         Assertions.assertTrue(results.getFailCount() == 0, "Had at least one test failure.");

@@ -1,8 +1,8 @@
 {
-  "dev" : {
-    "gridUrl": "http://localhost:4444/wd/hub"
+  "dev": {
+    "test": "dev"
   },
-  "e2e" : {
-    "gridUrl": "http://localhost:4444/wd/hub"
+  "e2e": {
+    "test": "e2e"
   }
 }
