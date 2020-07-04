@@ -11,7 +11,6 @@ Feature: Google Search - Form
   Scenario: Fill out google search 1
       More description here
     * call read('classpath:features/functions/simple_search.feature')
-    * karate.log("Finished Google search.")
 
   Scenario: Fill out google search 2
     * call read('classpath:features/functions/simple_search.feature')
